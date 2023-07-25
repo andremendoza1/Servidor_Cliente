@@ -28,6 +28,7 @@ public class Servidor extends JFrame {
 
         messageField = new JTextField();
 
+      
         emoticones.add("\uD83D\uDE01"); // Emoticono sonriente
         emoticones.add("\uD83D\uDE00"); // Emoticono feliz
         emoticones.add("\uD83D\uDE02"); // Emoticono risueño
@@ -38,6 +39,57 @@ public class Servidor extends JFrame {
         emoticones.add("\uD83D\uDE09"); // Emoticono guiño y sonrisa
         emoticones.add("\uD83D\uDE0A"); // Emoticono sonrisa coqueta
         emoticones.add("\uD83D\uDE0D"); // Emoticono sonrisa con corazones
+        emoticones.add("\uD83D\uDC94"); // Corazón rojo
+emoticones.add("\uD83D\uDC95"); // Corazón brillante
+emoticones.add("\uD83D\uDC96"); // Corazón resplandeciente
+emoticones.add("\uD83D\uDC97"); // Corazón con dos corazones
+emoticones.add("\uD83D\uDC98"); // Corazón con flecha
+emoticones.add("\uD83D\uDC99"); // Corazón con lazo
+emoticones.add("\uD83D\uDC9A"); // Corazón azul
+emoticones.add("\uD83D\uDC9B"); // Corazón verde
+emoticones.add("\uD83D\uDC9C"); // Corazón amarillo
+emoticones.add("\uD83D\uDC9D"); // Corazón morado
+emoticones.add("\uD83C\uDDF5\uD83C\uDDF7"); // Bandera de Estados Unidos
+emoticones.add("\uD83C\uDDEB\uD83C\uDDF7"); // Bandera de España
+emoticones.add("\uD83C\uDDEC\uD83C\uDDE7"); // Bandera de Francia
+emoticones.add("\uD83C\uDDE9\uD83C\uDDEA"); // Bandera de Alemania
+emoticones.add("\uD83C\uDDEE\uD83C\uDDF9"); // Bandera de Italia
+emoticones.add("\uD83C\uDDEE\uD83C\uDDEA"); // Bandera de Reino Unido
+emoticones.add("\uD83C\uDDE8\uD83C\uDDE6"); // Bandera de Brasil
+emoticones.add("\uD83C\uDDFA\uD83C\uDDF8"); // Bandera de Canadá
+emoticones.add("\uD83C\uDDF8\uD83C\uDDEE"); // Bandera de Australia
+emoticones.add("\uD83C\uDDE9\uD83C\uDDEA"); // Bandera de Argentina
+emoticones.add("\uD83D\uDC68"); // Hombre
+emoticones.add("\uD83D\uDC69"); // Mujer
+emoticones.add("\uD83D\uDC66"); // Niño
+emoticones.add("\uD83D\uDC67"); // Niña
+emoticones.add("\uD83D\uDC74"); // Hombre mayor
+emoticones.add("\uD83D\uDC75"); // Mujer mayor
+emoticones.add("\uD83D\uDC76"); // Hombre con esmoquin
+emoticones.add("\uD83D\uDC77"); // Mujer con vestido de noche
+emoticones.add("\uD83E\uDD70"); // Persona con barba
+emoticones.add("\uD83D\uDC68\uD83C\uDFFB"); // Hombre: tono de piel claro
+emoticones.add("\uD83C\uDF54"); // Torta
+emoticones.add("\uD83C\uDF5F"); // Cupcake
+emoticones.add("\uD83C\uDF66"); // Helado
+emoticones.add("\uD83C\uDF6C"); // Palomitas de maíz
+emoticones.add("\uD83C\uDF72"); // Frutas tropicales
+emoticones.add("\uD83C\uDF70"); // Sandía
+emoticones.add("\uD83C\uDF5E"); // Dona
+emoticones.add("\uD83C\uDF61"); // Manzana
+emoticones.add("\uD83C\uDF63"); // Naranja
+emoticones.add("\uD83C\uDF68"); // Helado de cono
+emoticones.add("\uD83D\uDC36"); // Perro
+emoticones.add("\uD83D\uDC31"); // Gato
+emoticones.add("\uD83D\uDC2E"); // Rana
+emoticones.add("\uD83D\uDC3A"); // Elefante
+emoticones.add("\uD83D\uDC39"); // Tigre
+emoticones.add("\uD83D\uDC10"); // Mono
+emoticones.add("\uD83D\uDC30"); // Canguro
+emoticones.add("\uD83D\uDC22"); // Tortuga
+emoticones.add("\uD83D\uDC35"); // Pez
+emoticones.add("\uD83D\uDC23"); // Ratón
+
         // Agrega más emoticones aquí...
 
         emojiComboBox = new JComboBox<>(emoticones.toArray(new String[0]));
